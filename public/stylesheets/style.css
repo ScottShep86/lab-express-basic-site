@@ -1,0 +1,82 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+ 
+  * {
+    margin: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+ 
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+ 
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+  }
+ 
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  #root, #__next {
+    isolation: isolate;
+  }
+  @font-face {
+    font-family: PROMESHMesh-Regular;
+    src: url(/fonts/PROMESHMesh-Regular.ttf);
+  }
+
+body {
+    font-family: PROMESHMesh-Regular;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 100px;
+    color: #2E532F;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 300px 0 300px;
+}
+
+ul {
+    text-align: center;
+    list-style: inside;
+    display: inline-block;
+}
+
+#garnett-jersey {
+    display: flex;
+    justify-content: center;
+}
+
+.garnett5 {
+    width: 600px;
+    margin-top: 40px;
+}
+
+#kgcertifiedLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.kgcertified {
+  width: 100px;
+}
